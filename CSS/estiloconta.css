@@ -1,0 +1,32 @@
+body{
+	width: 100% ;
+	background-color: rgb(82, 26, 26);
+}
+img {
+	max-width: 29%;
+	height: auto;
+}
+div {
+	text-align: left ;
+}
+footer {
+	text-align: center;
+}
+section {
+	display: flex;
+	width: 1560px;
+	height: 500px;
+}
+section img {
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .25;
+	transition: .7s ease;	
+}
+section img:hover{
+	cursor: crosshair;
+	width: 2000px;
+	opacity: 1;
+	filter: contrast(120%);
+}

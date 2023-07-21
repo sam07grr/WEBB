@@ -1,0 +1,53 @@
+body{
+	width: 100% ;
+	background-color: rgb(82, 26, 26);
+}
+
+div {
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+}
+img {
+	max-width: 29%;
+	height: auto;
+  }
+nav {
+	text-align: center;
+}
+h2 {
+	color: white;
+	text-align: center;
+  }
+
+header .menu{
+	height: 16vh;
+	Float: right;
+	/*border: 2px solid #000;*/
+}
+header .menu ul li{
+	list-style: none;
+	float: left;
+	/*border: 2px solid #000; */ 
+}
+header .menu ul li a{
+	background: #000000;
+	text-decoration: none;
+	padding: 1.7px 77px;
+	color: #ffffff;
+	font-size: 1rem;
+	
+
+}
+header.menu ul li a:hover{
+	background: #ffffff;
+	color: #000000
+
+}
+section {
+	width: 1400px;
+	height: 700%;
+	text-align: center;
+}

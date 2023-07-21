@@ -1,0 +1,24 @@
+body{
+	width: 100% ;
+	background-color: rgb(82, 26, 26);
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+form {
+	text-align: center;
+}
+
+img {
+	max-width: 29%;
+	height: auto;
+	
+  }
+div {
+	text-align: left;
+}
+
+#logo  {
+	text-align: center;
+}
